@@ -61,6 +61,7 @@ font-family: var(--roboto);
     background-color: var(--fundo-texto);
     border: 2px solid var(--borda);
     margin-top: 32px;
+    padding: 24px;
 }
 .parametro-titulo{
     font-family: var(--roboto-mono);
@@ -74,6 +75,10 @@ font-family: var(--roboto);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
 }
 .parametro-senha-botoes{
 display: flex;
